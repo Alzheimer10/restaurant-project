@@ -1,0 +1,23 @@
+app_restaurant_hello:
+    path:   /hello/{name}
+    defaults:   { _controller:  AppRestaurantBundle:Default:hello   }
+
+app_restaurant_index:
+    path:   /
+    defaults:   { _controller:  AppRestaurantBundle:Default:index   }
+
+app_restaurant_user_index:
+    path:   /user/index
+    defaults:   { _controller:  AppRestaurantBundle:Default:index   }
+
+app_restaurant_user_add:
+    path:   /user/add/{id}
+    defaults:   { _controller:  AppRestaurantBundle:Default:index   }
+    
+app_restaurant_user_delete:
+    path:   /user/delete/{id}
+    defaults:   { _controller:  AppRestaurantBundle:Default:index   }
+
+app_restaurant_user_edit:
+    path:   /user/edit/{id}
+    defaults:   { _controller:  AppRestaurantBundle:Default:index   }
